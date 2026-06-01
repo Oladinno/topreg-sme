@@ -37,7 +37,7 @@ export default function HeroSection() {
         </div>
       </ParallaxElement>
 
-      <div className="relative z-10 w-full max-w-container-max mx-auto px-margin-edge">
+      <div className="relative z-10 w-full max-w-container-max mx-auto px-4 md:px-margin-edge">
         <div className="max-w-4xl">
           <span className="inline-block font-label-caps text-label-caps text-secondary bg-off-white px-3 py-1 mb-8 animate-fade-in">
             HEY ENTREPRENEURS!
@@ -46,7 +46,7 @@ export default function HeroSection() {
           <TextReveal
             as="h1"
             text="Bringing Your Business From Idea & Imagination, Into Reality."
-            className="font-display-xl text-display-xl text-off-white mb-8 tracking-tighter"
+            className="font-display-xl text-4xl sm:text-6xl lg:text-display-xl text-off-white mb-8 tracking-tighter"
             delay={100}
             stagger={50}
           />

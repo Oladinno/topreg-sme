@@ -5,8 +5,8 @@ import TextReveal from "@/components/TextReveal";
 
 export default function FinalCta() {
   return (
-    <SectionReveal className="py-section-gap px-margin-edge text-center max-w-container-max mx-auto">
-      <div className="max-w-4xl mx-auto border-2 border-primary p-20 relative">
+    <SectionReveal className="py-16 md:py-24 lg:py-section-gap px-4 md:px-margin-edge text-center max-w-container-max mx-auto">
+      <div className="max-w-4xl mx-auto border-2 border-primary p-8 sm:p-12 md:p-20 relative">
         <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-surface px-8 py-2">
           <span className="font-label-caps text-label-caps text-primary tracking-[0.3em] animate-fade-in">
             THE NEXT STEP
@@ -16,7 +16,7 @@ export default function FinalCta() {
         <TextReveal
           as="h2"
           text="Your business transformation begins with a single decision."
-          className="font-display-lg text-display-lg text-primary mb-12 tracking-tight justify-center"
+          className="font-display-lg text-3xl sm:text-5xl lg:text-display-lg text-primary mb-12 tracking-tight justify-center"
           delay={100}
           stagger={30}
         />

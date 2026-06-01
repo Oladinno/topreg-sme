@@ -6,7 +6,7 @@ import InteractiveCanvas from "@/components/InteractiveCanvas";
 
 export default function ServicesHero() {
   return (
-    <section className="asym-grid pt-24 pb-section-gap max-w-container-max mx-auto px-margin-edge">
+    <section className="asym-grid pt-24 pb-16 md:pb-24 lg:pb-section-gap max-w-container-max mx-auto px-4 md:px-margin-edge">
       <div className="col-span-12 lg:col-span-9">
         <p className="font-label-caps text-label-caps text-secondary mb-4 animate-fade-in">
           DRIVING GROWTH SINCE 2024
@@ -15,7 +15,7 @@ export default function ServicesHero() {
         <TextReveal
           as="h1"
           text="World-Class Solutions for SME Growth."
-          className="font-display-xl text-display-xl text-primary leading-tight mb-8"
+          className="font-display-xl text-4xl sm:text-6xl lg:text-display-xl text-primary leading-tight mb-8"
           delay={100}
           stagger={40}
         />

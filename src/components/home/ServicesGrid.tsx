@@ -29,7 +29,7 @@ const services = [
 
 export default function ServicesGrid() {
   return (
-    <section className="bg-surface-container py-section-gap px-margin-edge">
+    <section className="bg-surface-container py-16 md:py-24 lg:py-section-gap px-4 md:px-margin-edge">
       <div className="max-w-container-max mx-auto">
         <div className="flex justify-between items-end mb-24">
           <div>
@@ -39,7 +39,7 @@ export default function ServicesGrid() {
             <TextReveal
               as="h2"
               text="Strategic Excellence."
-              className="font-display-lg text-display-lg text-primary tracking-tighter"
+              className="font-display-lg text-3xl sm:text-5xl lg:text-display-lg text-primary tracking-tighter"
               delay={100}
               stagger={40}
             />

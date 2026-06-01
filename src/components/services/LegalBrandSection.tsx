@@ -7,14 +7,14 @@ import TextReveal from "@/components/TextReveal";
 
 export default function LegalBrandSection() {
   return (
-    <SectionReveal className="asym-grid mb-section-gap max-w-container-max mx-auto px-margin-edge">
+    <SectionReveal className="asym-grid mb-16 md:mb-24 lg:mb-section-gap max-w-container-max mx-auto px-4 md:px-margin-edge">
       {/* Wrapped Image in InteractiveCanvas */}
       <InteractiveCanvas
         magneticStrength={0.1}
         warpStrength={10}
         scaleOnHover={1.03}
         cursorText="LAW"
-        className="col-span-12 lg:col-span-5 relative h-[600px] overflow-hidden"
+        className="col-span-12 lg:col-span-5 relative h-[350px] sm:h-[450px] lg:h-[600px] overflow-hidden"
       >
         <Image
           alt="Corporate Legal and Compliance"

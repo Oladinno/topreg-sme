@@ -6,7 +6,7 @@ import TextReveal from "@/components/TextReveal";
 
 export default function SystemsGrowthSection() {
   return (
-    <SectionReveal className="asym-grid mb-section-gap max-w-container-max mx-auto px-margin-edge">
+    <SectionReveal className="asym-grid mb-16 md:mb-24 lg:mb-section-gap max-w-container-max mx-auto px-4 md:px-margin-edge">
       {/* Interactive Systems Block */}
       <InteractiveCanvas
         magneticStrength={0.06}

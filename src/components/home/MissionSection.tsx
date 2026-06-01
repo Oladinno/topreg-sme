@@ -5,7 +5,7 @@ import TextReveal from "@/components/TextReveal";
 
 export default function MissionSection() {
   return (
-    <SectionReveal className="py-section-gap px-margin-edge max-w-container-max mx-auto">
+    <SectionReveal className="py-16 md:py-24 lg:py-section-gap px-4 md:px-margin-edge max-w-container-max mx-auto">
       <div className="asymmetric-grid gap-gutter">
         <div className="col-span-12 md:col-span-5 mb-12 md:mb-0">
           <TextReveal

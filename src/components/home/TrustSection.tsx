@@ -7,14 +7,14 @@ import TextReveal from "@/components/TextReveal";
 
 export default function TrustSection() {
   return (
-    <SectionReveal className="py-section-gap px-margin-edge bg-deep-black text-off-white">
+    <SectionReveal className="py-16 md:py-24 lg:py-section-gap px-4 md:px-margin-edge bg-deep-black text-off-white">
       <div className="max-w-container-max mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-section-gap items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-section-gap items-center">
           <div>
             <TextReveal
               as="h2"
               text="Join Our Community Of Entrepreneurs, Whose Businesses We've Brought To Life."
-              className="font-display-lg text-display-lg mb-12 tracking-tighter"
+              className="font-display-lg text-3xl sm:text-5xl lg:text-display-lg mb-12 tracking-tighter"
               delay={100}
               stagger={30}
             />
